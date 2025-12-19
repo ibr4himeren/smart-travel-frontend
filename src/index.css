@@ -1,0 +1,116 @@
+.auth-container {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-card {
+  width: 350px;
+  padding: 25px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.auth-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.auth-card input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.primary {
+  width: 100%;
+  padding: 10px;
+  background: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.primary:hover {
+  background: #005fd1;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.success {
+  color: green;
+  text-align: center;
+  margin-bottom: 10px;
+}
+/* ===== GLOBAL PAGE STYLE ===== */
+.page {
+  padding: 30px;
+}
+
+/* ===== FORM BOX ===== */
+.form-box {
+  background: #f8fafc;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.form-box input,
+.form-box select {
+  padding: 8px;
+  margin: 5px;
+  width: 200px;
+}
+
+.form-box button {
+  padding: 8px 15px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+/* ===== GRID & CARDS ===== */
+.grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.card h3 {
+  margin: 5px 0;
+}
+
+.actions button {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+/* ===== WEATHER BOX ===== */
+.weather-box {
+  margin-top: 20px;
+  padding: 15px;
+  background: #e0f2fe;
+  border-radius: 10px;
+}
